@@ -6,8 +6,9 @@ from Instagram.
 
 ## Prerequisites
 
-* Python >= 3.8 * Install Python requirements by running in your terminal: `pip
-install -r requirements.txt`
+- Python >= 3.8 
+- Install Python requirements by running in your terminal: `pip install -r
+  requirements.txt`
 
 ## Run
 
@@ -18,8 +19,7 @@ It works as follows:
    example: `https://www.instagram.com/politiek_bij1/?__a=1`. Once the JSON data
    loads you can download it to a file called `instagram_page_statistics.json`
   1. Note: when you navigate to that page you can only get the first 25 posts.
-     To get more posts check out [this
-     article](https://dev.to/iankerins/the-easy-way-to-build-an-instagram-spider-using-python-scrapy-graphql-4gko)
+     To get more posts check out [this article](https://dev.to/iankerins/the-easy-way-to-build-an-instagram-spider-using-python-scrapy-graphql-4gko)
 2. In your terminal run `python instagram_data_extractor.py`. This script will
    do the following for each of the posts that contain pictures (not videos):
   1. download the image and store it in a jpg file. If a post contains multiple
